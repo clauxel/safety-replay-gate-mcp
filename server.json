@@ -1,0 +1,27 @@
+{
+  "name": "com.clauxel.safetyreplay/safetyreplay-mcp",
+  "title": "Safety Replay Gate MCP",
+  "description": "Paid remote MCP for AI agent safety replay checks, policy gates, eval receipts, control-fix suggestions, and release evidence exports.",
+  "version": "1.0.0",
+  "websiteUrl": "https://safetyreplay.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/safety-replay-gate-mcp",
+  "serverCardUrl": "https://safetyreplay.clauxel.com/server-card.json",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://safetyreplay.clauxel.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer token from the product website."
+        }
+      ]
+    }
+  ],
+  "tags": [
+    "ai-safety",
+    "evals",
+    "policy-gate",
+    "remote-mcp"
+  ]
+}
