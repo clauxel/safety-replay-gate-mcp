@@ -1,0 +1,12 @@
+# Safety Replay Gate MCP
+
+Paid remote MCP for AI agent safety replay checks, policy gates, eval receipts, control-fix suggestions, and release evidence exports.
+
+Website: https://safetyreplay.clauxel.com/
+MCP endpoint: https://safetyreplay.clauxel.com/mcp
+Server card: https://safetyreplay.clauxel.com/server-card.json
+Docs: https://github.com/clauxel/safety-replay-gate-mcp
+
+Use case: Replay safety evals before agent releases move forward.
+Authentication: Bearer token required for production use.
+Tools: run_safety_replay, check_policy_gate, record_eval_receipt, suggest_control_fix, export_release_evidence
